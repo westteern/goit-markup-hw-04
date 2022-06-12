@@ -67,10 +67,12 @@ span {
 }
 
 /* Навігація */
+.header {
+	border-bottom: 1px solid #ececec;
+}
 .main-nav {
 	display: flex;
-	align-items: center;
-	border-top: 1px solid #ececec;
+	align-items: center;	
 }
 .site-nav {
 	display: flex;
@@ -283,9 +285,9 @@ span {
 }
 .team-list .img {
 	display: block;
-	margin-bottom: 30px;
 }
 .team-list .content {
+	padding-top: 30px;
 	padding-right: 32px;
 	padding-bottom: 30px;
 	padding-left: 32px;
@@ -389,6 +391,7 @@ span {
 .footer .logo {
 	display: block;
 	margin-bottom: 20px;
+	padding: 0;
 }
 .address-list a {
 	color: rgba(255, 255, 255, 0.6);
@@ -460,8 +463,7 @@ span {
 
 	background-color: #f5f4fa;
 	color: #212121;
-	outline: transparent;
-
+	
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
